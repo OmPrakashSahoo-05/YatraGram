@@ -25,7 +25,10 @@
   },
   "dependencies": {
     "@foal/core": "^4.0.0",
+    "@foal/storage": "^4.2.0",
+    "@foal/swagger": "^4.2.0",
     "@foal/typeorm": "^4.0.0",
+    "dotenv": "^16.4.5",
     "source-map-support": "~0.5.21",
     "sqlite3": "~5.1.6",
     "typeorm": "0.3.17"
@@ -34,13 +37,13 @@
     "@foal/cli": "^4.0.0",
     "@types/mocha": "10.0.1",
     "@types/node": "18.18.6",
+    "@typescript-eslint/eslint-plugin": "~6.5.0",
+    "@typescript-eslint/parser": "~6.5.0",
     "concurrently": "~8.2.1",
+    "eslint": "~8.48.0",
     "mocha": "~10.2.0",
     "supertest": "~6.3.3",
     "supervisor": "~0.12.0",
-    "eslint": "~8.48.0",
-    "@typescript-eslint/eslint-plugin": "~6.5.0",
-    "@typescript-eslint/parser": "~6.5.0",
     "typescript": "~4.9.5"
   }
 }
